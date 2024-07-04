@@ -30,7 +30,7 @@
 
 - miniKanren: debugger/visualizer/profiler.
   Devise and implement a tool for tracing the evaluation of relational programs in
-  native relational terms. Devise a ways to visualize the course of the search and
+  native relational terms. Devise ways to visualize the course of the search and
   gather various metrics: number of unifications, failed occurs checks, etc.
 
 - miniKanren: tabling and disequality.
