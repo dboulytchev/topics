@@ -36,17 +36,17 @@
 - miniKanren: tabling and disequality.
   Tabling is a powerful tool which allows to speed-up relational search essentially (up
   to several orders of magnitude). Alas, tabling is not always sound when dealing with
-  disequality. Devise and implement a ways which would let tabling and disequality to
+  disequality. Devise and implement a ways which would let tabling and disequality 
   coexist.
  
 - miniKanren: data representation. Traditional data structures for functional programming
   are often unsuitable in relational case. For example, representing sets as lists incurs
   an exponential performance degradation since one set can be represented by an exponential
   number of lists. Devise and implement data representations which would allow to
-  eliminte this overhead.
+  eliminate this overhead.
   
 - miniKanren: occurs check optimization.
   Occurs check provides unificaition soudness, and at the time drastically reduced the
-  search performance. Devise and implement a ways to reduce the impact of the occurs
+  search performance. Devise and implement ways to reduce the impact of the occurs
   check on the performance of the search.
 
