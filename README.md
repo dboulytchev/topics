@@ -36,7 +36,7 @@
 - miniKanren: tabling and disequality.
   Tabling is a powerful tool which allows to speed-up relational search essentially (up
   to several orders of magnitude). Alas, tabling is not always sound when dealing with
-  disequality. Devise and implement a ways which would let tabling and disequality 
+  disequality. Devise and implement ways which would let tabling and disequality 
   coexist.
  
 - miniKanren: data representation. Traditional data structures for functional programming
